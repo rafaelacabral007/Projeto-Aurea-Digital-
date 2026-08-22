@@ -818,3 +818,45 @@ footer {
         gap: 30px;
     }
 }
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--white-quente);
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal-conteudo {
+    position: relative;
+    background-color: var(--navy);
+    width: 90%;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid var(--dourado);
+}
+.modal-conteudo h2 {
+    color: var(--dourado);
+}
+.modal-conteudo p {
+     color: var(--dourado);
+    line-height: 1.6;
+}
+#fechar-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+    background: none;
+    border: none;
+
+    font-size: 28px;
+    color: var(--dourado);
+    cursor: pointer;
+}
